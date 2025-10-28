@@ -356,6 +356,71 @@ textarea {
   #mes-projets .project-image {
     height: 300px;
   }
+  /* ============================================
+   CORRECTIONS RESPONSIVE MOBILE
+   ============================================ */
+
+/* Logo responsive */
+#logo {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  /* Navigation */
+  nav {
+    padding: 15px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #logo {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  #nav_barre {
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 0.9rem;
+    justify-content: center;
+  }
+
+  #nav_barre li {
+    display: inline-block;
+  }
+
+  /* Hero */
+  #hero-content h1 {
+    font-size: 1.8rem !important;
+  }
+
+  #hero-content p {
+    font-size: 1rem;
+  }
+
+  #portfolio {
+    padding: 12px 30px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #logo {
+    font-size: 1rem;
+  }
+
+  #nav_barre {
+    gap: 10px;
+    font-size: 0.85rem;
+  }
+
+  #hero-content h1 {
+    font-size: 1.5rem !important;
+  }
+}
 
 }
+
 
