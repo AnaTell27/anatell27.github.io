@@ -154,7 +154,7 @@ nav {
 .about-image {
   flex: 1 1 100px;
   height: 800px;
-  background: url('Images/DSC_5158.JPG') center/cover no-repeat;
+  background: url('DSC_5158.JPG') center/cover no-repeat;
   border-radius: 16px;
 }
 
@@ -356,4 +356,5 @@ textarea {
   #mes-projets .project-image {
     height: 300px;
   }
+
 }
